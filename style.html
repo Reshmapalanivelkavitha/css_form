@@ -1,0 +1,71 @@
+
+   <!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Form</title>
+  <style> 
+  body{
+    font-family: sans-serif;
+  
+  }
+  input{
+    background-color:lavender;
+    border:1px solid grey;
+    padding-top:3px;
+    width:180px;
+    border-radius: 3px;
+      
+    
+  }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-size:15px;
+       
+    }
+    article{
+      width: 175px;
+      padding:20px;
+      border-radius: 10px;
+      background-color:lavender;
+    
+    
+    }
+    button
+    {
+      margin-top: 10px;
+      width: 175px;
+      height: 30px;
+      border: none;
+      background-color:forestgreen;
+      color: white;
+      border-radius: 5px;
+    }
+
+  </style>
+</head>
+<body>
+  <article>
+      
+    
+  <h2>SignUp Form</h2>
+
+
+  <form action="/submit" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="confirm">Confirm Password:</label>
+    <input type="password" id="confirm" name="confirm" required><br>
+      
+  <button type="submit" style="background-color:forestgreen;">Sign Up</button>
+  </form>
+  </article>
+</body>
+</html>
